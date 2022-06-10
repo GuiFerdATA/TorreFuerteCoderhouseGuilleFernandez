@@ -8,23 +8,27 @@
         margin-bottom: 50px;
         font-size: 3em;
         text-align: center;
+    }
+    p{
+        color: black;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    img{
+        border-radius: 200px;
+        cursor:pointer;
+        transition: all 0.3s ease-in-out;
 
-        img{
-            border-radius: 200px;
-            cursor:pointer;
-            transition: all 0.3s ease-in-out;
-        }
-        img:hover{
+        &:hover{
             transform:scale(1.005);
             box-shadow:13px 15px 37px black ;
         }
-        p{
-            color: black;
-            font-size: 1.5em;
-            text-align: center;
-        }
     }
+
+    
+    
 }
+
 .nosotros1 img{
     float: left;
     width: 600px;

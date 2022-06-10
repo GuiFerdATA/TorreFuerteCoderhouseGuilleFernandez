@@ -302,17 +302,17 @@ header {
     margin-bottom: 50px;
     font-size: 3em;
     text-align: center; }
+  .nosotros_main p {
+    color: black;
+    font-size: 1.5em;
+    text-align: center; }
   .nosotros_main img {
     border-radius: 200px;
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
-  .nosotros_main:hover {
-    transform: scale(1.005);
-    box-shadow: 13px 15px 37px black; }
-  .nosotros_main .nosotros p {
-    color: black;
-    font-size: 1.5em;
-    text-align: center; }
+    .nosotros_main img:hover {
+      transform: scale(1.005);
+      box-shadow: 13px 15px 37px black; }
 
 .nosotros1 img {
   float: left;
