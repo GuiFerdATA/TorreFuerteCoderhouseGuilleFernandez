@@ -297,26 +297,22 @@ header {
   text-align: center;
   width: 97%;
   margin: 0px auto; }
-
-.nosotros h1 {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-size: 3em;
-  text-align: center; }
-
-.nosotros img {
-  border-radius: 200px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.nosotros img:hover {
-  transform: scale(1.005);
-  box-shadow: 13px 15px 37px black; }
-
-.nosotros p {
-  color: black;
-  font-size: 1.5em;
-  text-align: center; }
+  .nosotros_main .nosotros h1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-align: center; }
+  .nosotros_main img {
+    border-radius: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+  .nosotros_main:hover {
+    transform: scale(1.005);
+    box-shadow: 13px 15px 37px black; }
+  .nosotros_main .nosotros p {
+    color: black;
+    font-size: 1.5em;
+    text-align: center; }
 
 .nosotros1 img {
   float: left;
@@ -461,7 +457,7 @@ header {
   color: black;
   cursor: pointer; }
 
-@media only screen and (min-width: 500px) and (max-width: 768px) {
+@media only screen and (min-width: 500px) and (max-width: 899px) {
   .cartaPrincipal {
     background-image: url("./img/Nosotros.jpg");
     background-repeat: no-repeat;
@@ -472,24 +468,24 @@ header {
     /*---desde donde comienza, hacia donde termina---*/
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
-  .cartaPrincipal a {
-    top: 10%; }
-  .cartaPrincipal p {
-    font-size: 1.5em; }
-  .cartaPrincipal h2 {
-    font-size: 3em;
-    color: #343a40;
-    background-color: #B91646; }
+    .cartaPrincipal a {
+      top: 10%; }
+    .cartaPrincipal p {
+      font-size: 1.5em; }
+    .cartaPrincipal h2 {
+      font-size: 3em;
+      color: #343a40;
+      background-color: #B91646; }
   /*ARTICULOS SECUDANRIOS*/
   .carta {
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-align: center; }
-  .carta h2 {
-    font-size: 2em; }
-  .carta p {
-    font-size: 1.5em; }
+    .carta h2 {
+      font-size: 2em; }
+    .carta p {
+      font-size: 1.5em; }
   /*QUIENES SOMOS*/
   .nosotros_main {
     display: flex;
@@ -609,23 +605,23 @@ header {
   /*ARTICULO PRICIPAL*/
   .section_main {
     display: grid; }
-  .cartaPrincipal {
-    background-image: url("./img/Nosotros.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    grid-column: 1/2;
-    /*---desde donde comienza, hacia donde termina---*/
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; }
-  .cartaPrincipal p {
-    font-size: 1.5em; }
-  .cartaPrincipal h2 {
-    background-color: #B91646;
-    color: #343a40;
-    font-size: 3em;
-    border-radius: 10px; }
+    .section_main .cartaPrincipal {
+      background-image: url("./img/Nosotros.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 15px;
+      grid-column: 1/2;
+      /*---desde donde comienza, hacia donde termina---*/
+      cursor: pointer;
+      transition: all 0.3s ease-in-out; }
+      .section_main .cartaPrincipal p {
+        font-size: 1.5em; }
+      .section_main .cartaPrincipal h2 {
+        background-color: #B91646;
+        color: #343a40;
+        font-size: 3em;
+        border-radius: 10px; }
   /*ARTICULOS SECUDANRIOS*/
   .carta {
     display: flex;

@@ -3,26 +3,26 @@
     /*ARTICULO PRICIPAL*/
     .section_main{
         display: grid;
-    }
-    .cartaPrincipal{
-        background-image: url("./img/Nosotros.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 15px;
-        grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
-        cursor:pointer;
-        transition: all 0.3s ease-in-out;
-    }
 
-    .cartaPrincipal p{
-        font-size: 1.5em;
-    }
-    .cartaPrincipal h2{
-        background-color: #B91646;
-        color:#343a40;
-        font-size: 3em;
-        border-radius: 10px;
+        .cartaPrincipal{
+            background-image: url("./img/Nosotros.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 15px;
+            grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
+            cursor:pointer;
+            transition: all 0.3s ease-in-out;
+            p{
+                font-size: 1.5em;
+            }
+            h2{
+                background-color: #B91646;
+                color:#343a40;
+                font-size: 3em;
+                border-radius: 10px;
+            }
+        }
     }
 
     /*ARTICULOS SECUDANRIOS*/
