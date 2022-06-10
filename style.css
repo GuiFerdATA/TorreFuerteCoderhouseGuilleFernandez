@@ -40,9 +40,9 @@ header {
       flex-direction: column;
       justify-items: center;
       align-items: center;
-      font-size: 3em;
-      background-color: #B91646;
-      color: #343a40; }
+      font-size: 5em;
+      color: #B91646;
+      -webkit-text-stroke: 1px #343a40; }
     .section_main .cartaPrincipal p {
       display: flex;
       flex-direction: column;
@@ -475,7 +475,8 @@ header {
     .cartaPrincipal h2 {
       font-size: 3em;
       color: #343a40;
-      background-color: #B91646; }
+      background-color: #B91646;
+      -webkit-text-stroke: 2px black; }
   /*ARTICULOS SECUDANRIOS*/
   .carta {
     display: flex;
@@ -601,7 +602,7 @@ header {
   #main_footer ul p {
     font-size: 1.2em; } }
 
-@media only screen and (min-width: 320px) and (max-width: 499px) {
+@media only screen and (min-width: 318px) and (max-width: 499px) {
   /*ARTICULO PRICIPAL*/
   .section_main {
     display: grid; }
@@ -616,12 +617,13 @@ header {
       cursor: pointer;
       transition: all 0.3s ease-in-out; }
       .section_main .cartaPrincipal p {
-        font-size: 1.5em; }
+        font-size: 1.8em; }
       .section_main .cartaPrincipal h2 {
         background-color: #B91646;
         color: #343a40;
         font-size: 3em;
-        border-radius: 10px; }
+        border-radius: 10px;
+        -webkit-text-stroke: 2px black; }
   /*ARTICULOS SECUDANRIOS*/
   .carta {
     display: flex;
@@ -642,11 +644,7 @@ header {
     justify-items: center;
     text-align: center;
     width: 97%;
-    margin: 0px auto;
-    /*---comienzo grid, trabajo---*/
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr); }
+    margin: 0px auto; }
   .nosotros img {
     width: 300px; }
   .nosotros h1 {

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width:499px){
+@media only screen and (min-width: 318px) and (max-width:499px){
 
     /*ARTICULO PRICIPAL*/
     .section_main{
@@ -13,9 +13,9 @@
             grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
             cursor:pointer;
             transition: all 0.3s ease-in-out;
-            
+
             p{
-                font-size: 1.5em;
+                font-size: 1.8em;
             }
 
             h2{
@@ -23,6 +23,7 @@
                 color:#343a40;
                 font-size: 3em;
                 border-radius: 10px;
+                -webkit-text-stroke: 2px black;
             }
         }
     }
@@ -52,10 +53,6 @@
         text-align: center;
         width: 97%;
         margin: 0px auto;
-    /*---comienzo grid, trabajo---*/
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
     }
     
     .nosotros  img{
