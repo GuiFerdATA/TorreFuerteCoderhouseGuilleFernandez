@@ -1,3 +1,9 @@
+
+//Variables//
+$colorP : #B91646;
+$colorS : #343a40;
+//fin variables//
+
 .section_main {    
     justify-items: center;
     text-align: center;
@@ -18,8 +24,8 @@
             justify-items: center;
             align-items: center;
             font-size: 5em;
-            color:#B91646;
-            -webkit-text-stroke: 1px #343a40;
+            color:$colorP;
+            -webkit-text-stroke: 1px $colorS;
         }
         p{
             display: flex;
@@ -29,7 +35,7 @@
             font-size: 1.8em;
             margin-top: 60px;  
             color:black; 
-            -webkit-text-stroke: 1px #343a40;
+            -webkit-text-stroke: 1px $colorS;
         }
         a{
             text-decoration: none;
@@ -38,7 +44,7 @@
             font-size: 22px;
             color: whitesmoke;
             border-radius: 6px;
-            background-color:#B91646;
+            background-color:$colorP;
             transform: translate(2%, 2%);
             text-shadow: 0 0 8px black;
             cursor:pointer;

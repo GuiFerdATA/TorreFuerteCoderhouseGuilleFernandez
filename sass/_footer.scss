@@ -1,3 +1,7 @@
+$colorP : #B91646;
+$colorS : #343a40;
+
+
 #main_footer{
     background: rgb(49,24,94);
     background: linear-gradient(0deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
@@ -8,7 +12,7 @@
 
     p{
         margin-top: 20px;
-        background-color: #B91646;
+        background-color:$colorP ;
         font-size: 1.5rem;
         color:white;
     }
@@ -18,7 +22,7 @@
 
         p{
             font-size: 1.5rem ;
-            background-color: #B91646;
+            background-color: $colorP;
             color:whitesmoke;
             position: relative;
             margin-top: 20px;
@@ -37,9 +41,9 @@
                 cursor: pointer;
                 transition:all 0.3s ease-in-out;
             }
-            &:hover {
+            & :hover {
                 color:orangered; 
-              }
+            }
         }
     }
     .redes {
