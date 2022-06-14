@@ -23,6 +23,7 @@ header {
       background: #31185e;
       background: linear-gradient(180deg, #31185e 0%, rgba(187, 9, 140, 0.245536) 100%); }
 
+@use "./variables";
 .section_main {
   justify-items: center;
   text-align: center;
@@ -138,6 +139,7 @@ header {
   background-position: center;
   background-size: cover; }
 
+@use "./variables";
 #main_footer {
   background: #31185e;
   background: linear-gradient(0deg, #31185e 0%, rgba(123, 95, 186, 0.18111) 100%);
