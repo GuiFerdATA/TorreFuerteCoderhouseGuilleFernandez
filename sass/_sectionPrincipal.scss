@@ -49,10 +49,11 @@ $colorS : #343a40;
             text-shadow: 0 0 8px black;
             cursor:pointer;
             transition: all 0.3s ease-in-out;
-        }
-        & a:hover{
-            transform:scale(1.1);
-            box-shadow:13px 15px 37px grey ;
+
+            &:hover{
+                transform:scale(1.1);
+                box-shadow:13px 15px 37px grey ;
+            }
         }
     }
 }

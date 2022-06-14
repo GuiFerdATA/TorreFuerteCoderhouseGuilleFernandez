@@ -64,9 +64,9 @@ header {
       text-shadow: 0 0 8px black;
       cursor: pointer;
       transition: all 0.3s ease-in-out; }
-    .section_main .cartaPrincipal a:hover {
-      transform: scale(1.1);
-      box-shadow: 13px 15px 37px grey; }
+      .section_main .cartaPrincipal a:hover {
+        transform: scale(1.1);
+        box-shadow: 13px 15px 37px grey; }
 
 .carta {
   margin: 5px;
@@ -109,9 +109,9 @@ header {
     text-shadow: 0 0 8px black;
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
-  .carta a:hover {
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px grey; }
+    .carta a:hover {
+      transform: scale(1.1);
+      box-shadow: 13px 15px 37px grey; }
 
 /*imagenes para cada sub cartas*/
 .carta1 {
@@ -170,8 +170,8 @@ header {
       font-size: 1.2rem;
       cursor: pointer;
       transition: all 0.3s ease-in-out; }
-    #main_footer ul li :hover {
-      color: orangered; }
+      #main_footer ul li a:hover {
+        color: orangered; }
   #main_footer .redes {
     position: relative;
     margin-top: 35px; }
@@ -190,17 +190,91 @@ header {
   grid-template-rows: repeat(4, 1fr);
   row-gap: 1em;
   column-gap: 1em; }
-
-.item {
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.item:hover {
-  transform: scale(1.005);
-  box-shadow: 13px 15px 37px black; }
+  .main_fotogaleria .item {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+    .main_fotogaleria .item:hover {
+      transform: scale(1.005);
+      box-shadow: 13px 15px 37px black; }
+  .main_fotogaleria .item1 {
+    background-image: url("./img/fotogaleria/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item2 {
+    background-image: url("./img/fotogaleria/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item3 {
+    background-image: url("./img/fotogaleria/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item4 {
+    background-image: url("./img/fotogaleria/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item5 {
+    background-image: url("./img/fotogaleria/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item6 {
+    background-image: url("./img/fotogaleria/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item7 {
+    background-image: url("./img/fotogaleria/7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item8 {
+    background-image: url("./img/fotogaleria/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item9 {
+    background-image: url("./img/fotogaleria/9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item10 {
+    background-image: url("./img/fotogaleria/10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item11 {
+    background-image: url("./img/fotogaleria/fi-exterior-pkok9192p-lok.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item12 {
+    background-image: url("./img/fotogaleria/12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item13 {
+    background-image: url("./img/fotogaleria/13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item14 {
+    background-image: url("./img/fotogaleria/15.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .main_fotogaleria .item15 {
+    background-image: url("#");
+    /*PONER IMAGEN NO OLVIDAR*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
 
 .item1 {
   background-image: url("./img/fotogaleria/1.jpg");
@@ -302,15 +376,15 @@ header {
     margin-bottom: 50px;
     font-size: 3em;
     text-align: center; }
-  .nosotros_main p {
+  .nosotros_main .nosotros p {
     color: black;
     font-size: 1.5em;
     text-align: center; }
-  .nosotros_main img {
+  .nosotros_main .nosotros img {
     border-radius: 200px;
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
-    .nosotros_main img:hover {
+    .nosotros_main .nosotros img:hover {
       transform: scale(1.005);
       box-shadow: 13px 15px 37px black; }
 
@@ -331,74 +405,63 @@ header {
   margin: 0px auto;
   display: grid;
   row-gap: 1em;
-  column-gap: 1em; }
-
-/*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
-.general img {
-  margin-bottom: 25px;
-  float: left;
-  height: 600px;
-  border-radius: 500px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.general img:hover {
-  transform: scale(1.005);
-  box-shadow: 13px 15px 37px black; }
-
-.general p {
-  font-size: 1.5em;
-  text-align: center; }
-
-.general h1 {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 3em; }
+  column-gap: 1em;
+  /*posicionamiento para llave en mano-luz-agua-gas-construcciones*/ }
+  .generales_main .general img {
+    margin-bottom: 25px;
+    float: left;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+    .generales_main .general img:hover {
+      transform: scale(1.005);
+      box-shadow: 13px 15px 37px black; }
+  .generales_main .general p {
+    font-size: 1.5em;
+    text-align: center; }
+  .generales_main .general h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em; }
 
 .servicios_main {
   text-align: center;
   width: 97%;
   margin: 0px auto; }
-
-.servicio h2 {
-  font-size: 3em;
-  text-align: center;
-  justify-content: space-between; }
-
-.servicio img {
-  width: 500px;
-  height: 250px;
-  border-radius: 200px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.servicio img:hover {
-  transform: scale(1.005);
-  box-shadow: 13px 15px 37px black; }
-
-.servicio p {
-  color: black;
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: 50px; }
-
-.servicio a {
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding: 10px;
-  font-size: 20px;
-  color: whitesmoke;
-  border-radius: 6px;
-  background-color: #B91646;
-  transform: translate(2%, 2%);
-  text-shadow: 0 0 8px black;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.servicio a:hover {
-  transform: scale(1.1);
-  box-shadow: 3.5px 2.5px 20px grey; }
+  .servicios_main .servicio h2 {
+    font-size: 3em;
+    text-align: center;
+    justify-content: space-between; }
+  .servicios_main .servicio img {
+    width: 500px;
+    height: 250px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+    .servicios_main .servicio img:hover {
+      transform: scale(1.005);
+      box-shadow: 13px 15px 37px black; }
+  .servicios_main .servicio p {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px; }
+  .servicios_main .servicio a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color: #B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+    .servicios_main .servicio a:hover {
+      transform: scale(1.1);
+      box-shadow: 3.5px 2.5px 20px grey; }
 
 /*imagenes para servicios*/
 .servicio1 img {
@@ -494,20 +557,19 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto;
-    /*---comienzo grid, trabajo---*/
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr); }
-  .nosotros img {
-    width: 300px; }
-  .nosotros h1 {
-    font-size: 2em;
-    margin-bottom: 10px; }
-  .nosotros p {
-    font-size: 1.2em;
-    margin-top: 10px; }
-  .nosotros2 img {
-    float: left; }
+    .nosotros_main .nosotros img {
+      width: 300px; }
+    .nosotros_main .nosotros h1 {
+      font-size: 2em;
+      margin-bottom: 10px; }
+    .nosotros_main .nosotros p {
+      font-size: 1.2em;
+      margin-top: 10px; }
+    .nosotros_main .nosotros2 img {
+      float: left; }
   /*MAIN GENERAL DE LLAVE EN MANO, LUZ,AGUA,GAS,CONSTRUCCIONES*/
   .generales_main {
     display: flex;
@@ -516,18 +578,18 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  .generales_main img {
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .general h1 {
-    margin-top: 2px;
-    font-size: 2em;
-    color: #ab4493; }
-  .general p {
-    font-size: 1.2em;
-    margin-top: 10px; }
+    .generales_main img {
+      width: 300px;
+      height: 300px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .generales_main .general h1 {
+      margin-top: 2px;
+      font-size: 2em;
+      color: #ab4493; }
+    .generales_main .general p {
+      font-size: 1.2em;
+      margin-top: 10px; }
   /*SERVICIOS*/
   .servicios_main {
     display: flex;
@@ -536,29 +598,21 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  .servicio img {
-    width: 300px;
-    height: 200px;
-    margin-top: 10px; }
-  .servicio h2 {
-    color: #ab4493;
-    font-size: 2em; }
-  .servicio p {
-    font-size: 1.2em;
-    margin-top: 10px; }
-  .servicio img {
-    float: left; }
-  .servicio img {
-    display: none; }
+    .servicios_main .servicio img {
+      width: 300px;
+      margin-top: 10px; }
+    .servicios_main .servicio h2 {
+      color: #ab4493;
+      font-size: 2em; }
+    .servicios_main .servicio p {
+      font-size: 1.2em;
+      margin-top: 10px; }
   /*FOTOGALERIA*/
   .main_fotogaleria {
     margin: 0px auto;
-    /*---comienzo grid, trabajo---*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr); }
-  .main_fotogaleria div {
-    height: 200px; }
   .item10 {
     display: none; }
   .item11 {
@@ -571,27 +625,19 @@ header {
     display: none; }
   /*FORMULARIO*/
   #form_body {
-    background-color: white;
+    background-color: tan;
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  #form_body h1 {
-    font-size: 1.8em;
-    margin-top: 5px; }
-  #form_body h2 {
-    font-size: 1.2em;
-    margin-top: 5px; }
-  #form_body form {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    width: 97%;
-    margin: 0px auto; }
+    #form_body h1 {
+      font-size: 1.8em;
+      margin-top: 5px; }
+    #form_body h2 {
+      font-size: 1.2em;
+      margin-top: 5px; }
   /*FOOTER*/
   #main_footer p {
     font-size: 1em; }
@@ -601,7 +647,7 @@ header {
   #main_footer ul p {
     font-size: 1.2em; } }
 
-@media only screen and (min-width: 318px) and (max-width: 499px) {
+@media only screen and (max-width: 499px) {
   /*ARTICULO PRICIPAL*/
   .section_main {
     display: grid; }
@@ -630,13 +676,13 @@ header {
     justify-items: center;
     text-align: center;
     width: 97%; }
-  .carta h2 {
-    font-size: 2.2em;
-    border-radius: 10px;
-    color: #343a40;
-    -webkit-text-stroke: 2px black; }
-  .carta p {
-    font-size: 1.5em; }
+    .carta h2 {
+      font-size: 2.2em;
+      border-radius: 10px;
+      color: #343a40;
+      -webkit-text-stroke: 2px black; }
+    .carta p {
+      font-size: 1.5em; }
   /*QUIENES SOMOS*/
   .nosotros_main {
     flex-direction: column;
@@ -644,15 +690,15 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  .nosotros img {
-    width: 300px; }
-  .nosotros h1 {
-    font-size: 2em; }
-  .nosotros p {
-    font-size: 1.2em;
-    margin-top: 10px; }
-  .nosotros2 img {
-    float: left; }
+    .nosotros_main .nosotros img {
+      width: 300px; }
+    .nosotros_main .nosotros h1 {
+      font-size: 2em; }
+    .nosotros_main .nosotros p {
+      font-size: 1.2em;
+      margin-top: 10px; }
+    .nosotros_main .nosotros2 img {
+      float: left; }
   /*MAIN GENERAL DE LLAVE EN MANO, LUZ,AGUA,GAS,CONSTRUCCIONES*/
   .generales_main {
     display: flex;
@@ -661,18 +707,17 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  .generales_main img {
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .general h1 {
-    margin-top: 2px;
-    font-size: 2em;
-    color: #ab4493; }
-  .general p {
-    font-size: 1.2em;
-    margin-top: 10px; }
+    .generales_main .general h1 {
+      margin-top: 2px;
+      font-size: 2em;
+      color: #ab4493; }
+    .generales_main .general img {
+      width: 300px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .generales_main .general p {
+      font-size: 1.2em;
+      margin-top: 10px; }
   /*SERVICIOS*/
   .servicios_main {
     display: flex;
@@ -681,20 +726,14 @@ header {
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  .servicio img {
-    width: 300px;
-    height: 200px;
-    margin-top: 10px; }
-  .servicio h2 {
-    color: #ab4493;
-    font-size: 2em; }
-  .servicio p {
-    font-size: 1.2em;
-    margin-top: 10px; }
-  .servicio img {
-    float: left; }
-  .servicio img {
-    display: none; }
+    .servicios_main .servicio h2 {
+      color: #ab4493;
+      font-size: 2em; }
+    .servicios_main .servicio p {
+      font-size: 1.2em;
+      margin-top: 10px; }
+    .servicios_main .servicio img {
+      display: none; }
   /*FOTOGALERIA*/
   .main_fotogaleria {
     margin: 0px auto;
@@ -702,41 +741,29 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr); }
-  .main_fotogaleria div {
-    height: 200px; }
-  .item10 {
-    display: none; }
-  .item11 {
-    display: none; }
-  .item13 {
-    display: none; }
-  .item14 {
-    display: none; }
-  .item15 {
-    display: none; }
   /*FORMULARIO*/
   #form_body {
-    background-color: white;
+    background-color: tan;
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-align: center;
     width: 97%;
     margin: 0px auto; }
-  #form_body h1 {
-    font-size: 1.8em;
-    margin-top: 5px; }
-  #form_body h2 {
-    font-size: 1.2em;
-    margin-top: 5px; }
-  #form_body form {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    width: 97%;
-    margin: 0px auto; }
+    #form_body h1 {
+      font-size: 1.8em;
+      margin-top: 5px; }
+    #form_body h2 {
+      font-size: 1.2em;
+      margin-top: 5px; }
+    #form_body form {
+      background-color: tan;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      text-align: center;
+      width: 97%;
+      margin: 0px auto; }
   /*FOOTER*/
   #main_footer p {
     font-size: 1em; }

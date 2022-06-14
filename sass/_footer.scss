@@ -41,9 +41,10 @@ $colorS : #343a40;
                 font-size: 1.2rem;
                 cursor: pointer;
                 transition:all 0.3s ease-in-out;
-            }
-            & :hover {
-                color:orangered; 
+
+                &:hover {
+                    color:orangered; 
+                }
             }
         }
     }
