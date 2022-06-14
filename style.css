@@ -165,7 +165,6 @@ header {
       float: left;
       margin-top: 2px;
       margin-right: 20px;
-      padding: 10px 4px;
       color: whitesmoke;
       font-size: 1.2rem;
       cursor: pointer;
@@ -767,8 +766,8 @@ header {
   /*FOOTER*/
   #main_footer p {
     font-size: 1em; }
-  #main_footer li a {
-    color: #B91646;
-    font-size: 0.6em; }
+  #main_footer ul li a {
+    color: white;
+    font-size: 1em; }
   #main_footer ul p {
     font-size: 1.2em; } }
