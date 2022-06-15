@@ -54,24 +54,17 @@
 /*imagenes para cada sub cartas*/
 .carta1{
     background-image: url("./img/llaveenmano.jpg");
-    @include background(no-repeat, center, cover)
-
+    @include background(no-repeat, center, cover);
 }
 .carta2{
     background-image: url("./img/servicios.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include background(no-repeat, center, cover);
 }
 .carta3{
     background-image: url("./img/fotogaleria.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include background(no-repeat, center, cover);
 }
 .carta4{
     background-image: url("./img/contacto.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include background(no-repeat, center, cover);
 }
