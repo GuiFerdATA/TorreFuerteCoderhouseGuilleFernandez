@@ -7,9 +7,7 @@
 
     .cartaPrincipal{
         background-image: url("./img/Nosotros.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        @include background(no-repeat, center, cover);
         height: 670px;
         border-radius: 15px;
 

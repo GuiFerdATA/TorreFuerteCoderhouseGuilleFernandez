@@ -6,9 +6,7 @@
 
         .cartaPrincipal{
             background-image: url("./img/Nosotros.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            @include background(no-repeat, center, cover);
             border-radius: 15px;
             grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
             cursor:pointer;
