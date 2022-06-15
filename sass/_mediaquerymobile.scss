@@ -20,7 +20,7 @@
 
             h2{
                 background-color: $colorP;
-                color:#343a40;
+                color:$colorS;
                 font-size: 3em;
                 border-radius: 10px;
                 -webkit-text-stroke: 2px black;
@@ -39,7 +39,7 @@
         h2{
             font-size: 2.2em;
             border-radius: 10px;
-            color: #343a40;
+            color: $colorS;
             -webkit-text-stroke: 2px black;
         }
         p{
@@ -164,7 +164,7 @@
         font-size: 1em;
     }
     #main_footer ul li a{
-    color:white;
+    color: $cw;
     font-size: 1em;
     }
     #main_footer ul p{

@@ -11,7 +11,7 @@
         margin-top: 20px;
         background-color:$colorP ;
         font-size: 1.5rem;
-        color:white;
+        color: $cw;
     }
     ul{
         list-style: none; 
@@ -20,7 +20,7 @@
         p{
             font-size: 1.5rem ;
             background-color: $colorP;
-            color:whitesmoke;
+            color:$cws;
             position: relative;
             margin-top: 20px;
             margin-bottom: 2%;
@@ -32,7 +32,7 @@
                 float: left;
                 margin-top: 2px;
                 margin-right: 20px;
-                color:whitesmoke;
+                color:$cws;
                 font-size: 1.2rem;
                 cursor: pointer;
                 transition:all 0.3s ease-in-out;

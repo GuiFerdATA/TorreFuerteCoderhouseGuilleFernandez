@@ -9,13 +9,13 @@ header{
             li{
                 a{
                     font-size: 2rem;
-                    color: white;
+                    color: $cw;
                 }
             } 
         }
         .navbar-brand{
             font-size: 2rem;
-            color: white;
+            color: $cw;
         }
         .dropdown-menu{
             background: rgb(49,24,94);

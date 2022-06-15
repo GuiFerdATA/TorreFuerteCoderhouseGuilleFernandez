@@ -13,11 +13,11 @@
     h2{
         padding: 10px;
         margin-top: 20px;
-        color: white;
+        color: $cw;
         font-size: 2em;
         display: flex;
         flex-direction: column;
-        color:white; 
+        color: $cw; 
         -webkit-text-stroke: 1px $colorS;
         background-color: $colorP;
         border-radius: 10px;
@@ -26,7 +26,7 @@
         position: relative;
         margin-top: 60px;
         font-size: 2.2em;
-        color:white;
+        color: $cw;
     }
     /*botones "leer mas" de sub cartas*/
     a{
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
     padding: 10px;
     font-size: 22px;
-    color: whitesmoke;
+    color: $cws;
     border-radius: 6px;
     background-color:$colorP;
     transform: translate(2%, 2%);
