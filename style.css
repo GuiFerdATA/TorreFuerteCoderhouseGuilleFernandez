@@ -148,13 +148,13 @@ header {
   #main_footer p {
     margin-top: 20px;
     background-color: #B91646;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: white; }
   #main_footer ul {
     list-style: none;
     margin-left: 2%; }
     #main_footer ul p {
-      font-size: 1.5rem;
+      font-size: 1.5em;
       background-color: #B91646;
       color: whitesmoke;
       position: relative;
@@ -166,7 +166,7 @@ header {
       margin-top: 2px;
       margin-right: 20px;
       color: whitesmoke;
-      font-size: 1.2rem;
+      font-size: 1.3em;
       cursor: pointer;
       transition: all 0.3s ease-in-out; }
       #main_footer ul li a:hover {

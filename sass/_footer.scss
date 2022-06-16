@@ -10,7 +10,7 @@
     p{
         margin-top: 20px;
         background-color:$colorP ;
-        font-size: 1.5rem;
+        font-size: map-get($titleszise , Pfooter );
         color: $cw;
     }
     ul{
@@ -18,7 +18,7 @@
         margin-left: 2%;
 
         p{
-            font-size: 1.5rem ;
+            font-size: map-get($titleszise , Pfooter );
             background-color: $colorP;
             color:$cws;
             position: relative;
@@ -33,7 +33,7 @@
                 margin-top: 2px;
                 margin-right: 20px;
                 color:$cws;
-                font-size: 1.2rem;
+                font-size: map-get($titleszise , Afooter );
                 cursor: pointer;
                 transition:all 0.3s ease-in-out;
 
