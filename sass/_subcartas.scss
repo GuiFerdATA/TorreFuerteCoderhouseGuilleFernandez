@@ -29,26 +29,12 @@
         color: $cw;
     }
     /*botones "leer mas" de sub cartas*/
-    a{
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    margin-top: 60%;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 22px;
-    color: $cws;
-    border-radius: 6px;
-    background-color:$colorP;
-    transform: translate(2%, 2%);
-    text-shadow: 0 0 8px black;
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
-
-        &:hover{
-            transform:scale(1.1);
-            box-shadow:13px 15px 37px grey ;
-        }
+    .aS{
+        @extend .a;
+        display: inline-block;
+        position: relative;
+        margin-top: 60%;
+        margin-bottom: 20px; 
     }
 } 
 /*imagenes para cada sub cartas*/

@@ -27,24 +27,10 @@
             text-align: center;
             margin-top: 50px;
         }
-        a{
-            text-decoration: none;
+        .aServ{
+            @extend .a;
             text-align: center;
             display: inline-block;
-            padding: 10px;
-            font-size: 20px;
-            color: $cws;
-            border-radius: 6px;
-            background-color: $colorP;
-            transform: translate(2%, 2%);
-            text-shadow: 0 0 8px black;
-            cursor:pointer;
-            transition: all 0.3s ease-in-out;
-    
-            &:hover{
-                transform:scale(1.1);
-                box-shadow:3.5px 2.5px 20px grey ;
-            }
         }
     }
 }
