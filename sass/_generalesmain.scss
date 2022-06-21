@@ -6,6 +6,7 @@
     column-gap: 1em;
 /*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
     .general{
+        min-height: calc(100vh - 300px);
         img{
             margin-bottom: 25px;
             float: left;

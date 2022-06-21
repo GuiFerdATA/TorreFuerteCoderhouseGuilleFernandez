@@ -304,22 +304,24 @@ header {
   row-gap: 1em;
   column-gap: 1em;
   /*posicionamiento para llave en mano-luz-agua-gas-construcciones*/ }
-  .generales_main .general img {
-    margin-bottom: 25px;
-    float: left;
-    border-radius: 500px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; }
-    .generales_main .general img:hover {
-      transform: scale(1.005);
-      box-shadow: 13px 15px 37px black; }
-  .generales_main .general p {
-    font-size: 1.5em;
-    text-align: center; }
-  .generales_main .general h1 {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 3em; }
+  .generales_main .general {
+    min-height: calc(100vh - 300px); }
+    .generales_main .general img {
+      margin-bottom: 25px;
+      float: left;
+      border-radius: 500px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out; }
+      .generales_main .general img:hover {
+        transform: scale(1.005);
+        box-shadow: 13px 15px 37px black; }
+    .generales_main .general p {
+      font-size: 1.5em;
+      text-align: center; }
+    .generales_main .general h1 {
+      margin-top: 100px;
+      text-align: center;
+      font-size: 3em; }
 
 .servicios_main {
   text-align: center;
