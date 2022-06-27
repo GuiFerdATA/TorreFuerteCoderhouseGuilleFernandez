@@ -276,11 +276,10 @@ header {
     text-align: center; }
   .nosotros_main .nosotros img {
     border-radius: 200px;
-    cursor: pointer;
     transition: all 0.3s ease-in-out; }
     .nosotros_main .nosotros img:hover {
       transform: scale(1.005);
-      box-shadow: 13px 15px 37px black; }
+      box-shadow: 13px 15px 37px; }
 
 .nosotros1 img {
   float: left;
@@ -307,7 +306,6 @@ header {
       margin-bottom: 25px;
       float: left;
       border-radius: 500px;
-      cursor: pointer;
       transition: all 0.3s ease-in-out; }
       .generales_main .general img:hover {
         transform: scale(1.005);
