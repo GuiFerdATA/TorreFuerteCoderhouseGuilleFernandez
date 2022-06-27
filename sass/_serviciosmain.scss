@@ -12,13 +12,12 @@
         img{
             width: 500px;
             height: 250px;
-            border-radius: 200px;
-            cursor:pointer;
+            border-radius: 40%;
             transition: all 0.3s ease-in-out;
     
             &:hover{
                 transform:scale(1.005);
-                box-shadow:13px 15px 37px black ;
+                box-shadow:13px 15px 37px;
             }
         }
         p{
@@ -31,6 +30,7 @@
             @extend .a;
             text-align: center;
             display: inline-block;
+            font-size: 15px;
         }
     }
 }

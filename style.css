@@ -329,12 +329,11 @@ header {
   .servicios_main .servicio img {
     width: 500px;
     height: 250px;
-    border-radius: 200px;
-    cursor: pointer;
+    border-radius: 40%;
     transition: all 0.3s ease-in-out; }
     .servicios_main .servicio img:hover {
       transform: scale(1.005);
-      box-shadow: 13px 15px 37px black; }
+      box-shadow: 13px 15px 37px; }
   .servicios_main .servicio p {
     color: black;
     font-size: 1.5em;
@@ -342,7 +341,8 @@ header {
     margin-top: 50px; }
   .servicios_main .servicio .aServ {
     text-align: center;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 15px; }
 
 /*imagenes para servicios*/
 .servicio1 img {
