@@ -179,12 +179,10 @@ header {
   column-gap: 1em; }
   .main_fotogaleria .item {
     display: inline-block;
-    cursor: pointer;
     border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.45s ease-in-out; }
     .main_fotogaleria .item:hover {
-      transform: scale(1.005);
+      transform: scale(1.1);
       box-shadow: 13px 15px 37px black; }
   .main_fotogaleria .item1 {
     background-image: url("./img/fotogaleria/1.jpg");

@@ -12,13 +12,12 @@
 
     .item{
         display: inline-block;
-        cursor:pointer;
         border-radius: 6px;
-        cursor:pointer;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.45s ease-in-out;
+
 
         &:hover{
-            transform:scale(1.005);
+            transform:scale(1.1);
             box-shadow:13px 15px 37px black ;
         }
     }
