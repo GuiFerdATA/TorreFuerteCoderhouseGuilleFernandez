@@ -74,7 +74,11 @@ header {
   margin: 5px;
   align-items: center;
   border-radius: 6px;
+  transition: all 0.3s ease-in-out;
   /*botones "leer mas" de sub cartas*/ }
+  .carta:hover {
+    transform: scale(1.05);
+    box-shadow: 13px 15px 37px black; }
   .carta h2 {
     padding: 10px;
     margin-top: 20px;
