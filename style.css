@@ -323,6 +323,7 @@ header {
   width: 97%;
   margin: 0px auto; }
   .servicios_main .servicio h2 {
+    color: #31185e;
     font-size: 3em;
     text-align: center;
     justify-content: space-between; }
