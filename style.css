@@ -35,8 +35,7 @@ header {
       font-size: 2rem;
       color: white; }
     header .navbar .dropdown-menu {
-      background: #31185e;
-      background: linear-gradient(180deg, #31185e 0%, rgba(187, 9, 140, 0.245536) 100%); }
+      background: #31185e; }
 
 .section_main {
   justify-items: center;
@@ -94,7 +93,8 @@ header {
     position: relative;
     margin-top: 60px;
     font-size: 2.2em;
-    color: white; }
+    color: white;
+    -webkit-text-stroke: 0.5px white; }
   .carta .aS {
     display: inline-block;
     position: relative;
@@ -275,7 +275,8 @@ header {
     font-size: 1.5em;
     text-align: center; }
   .nosotros_main .nosotros img {
-    border-radius: 200px;
+    margin-bottom: 10px;
+    border-radius: 100px;
     transition: all 0.3s ease-in-out; }
     .nosotros_main .nosotros img:hover {
       transform: scale(1.005);
@@ -283,15 +284,15 @@ header {
 
 .nosotros1 img {
   float: left;
-  width: 600px; }
+  width: 450px; }
 
 .nosotros2 img {
   float: right;
-  width: 600px; }
+  width: 450px; }
 
 .nosotros3 img {
   float: left;
-  width: 600px; }
+  width: 450px; }
 
 .generales_main {
   width: 97%;
