@@ -590,9 +590,10 @@ header {
       font-size: 2em;
       color: #ab4493; }
     .generales_main .general img {
-      width: 300px;
+      width: 250px;
       margin-top: 10px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      float: none; }
     .generales_main .general p {
       font-size: 1.2em;
       margin-top: 10px; }
