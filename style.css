@@ -264,7 +264,8 @@ header {
     margin-top: 10px;
     margin-bottom: 50px;
     font-size: 3em;
-    text-align: center; }
+    text-align: center;
+    color: #31185e; }
   .nosotros_main .nosotros p {
     color: black;
     font-size: 1.5em;
