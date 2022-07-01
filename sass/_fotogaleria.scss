@@ -77,8 +77,4 @@
         background-image: url("./img/fotogaleria/15.png");
         @include background(no-repeat, center, cover);
     }
-    .item15{
-        background-image: url("#");/*PONER IMAGEN NO OLVIDAR*/
-        @include background(no-repeat, center, cover);
-    }
 }
