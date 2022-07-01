@@ -35,7 +35,7 @@ header {
       font-size: 2rem;
       color: white; }
     header .navbar .dropdown-menu {
-      background: #31185e; }
+      background: #66538a; }
 
 .section_main {
   justify-items: center;
@@ -56,7 +56,8 @@ header {
       align-items: center;
       font-size: 5em;
       color: #B91646;
-      -webkit-text-stroke: 1px #343a40; }
+      -webkit-text-stroke: 1px #343a40;
+      background: rgba(0, 0, 0, 0.1); }
     .section_main .cartaPrincipal p {
       display: flex;
       flex-direction: column;
@@ -85,15 +86,14 @@ header {
     font-size: 2em;
     display: flex;
     flex-direction: column;
-    color: #B91646;
-    background: rgba(0, 0, 0, 0.8);
-    -webkit-text-stroke: 1px #B91646;
+    color: white;
+    background-color: #B91646;
     border-radius: 10px; }
   .carta p {
     position: relative;
     margin-top: 60px;
     font-size: 2em;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     -webkit-text-stroke: 0.2px white; }
   .carta .aS {
