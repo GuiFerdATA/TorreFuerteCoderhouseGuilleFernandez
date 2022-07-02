@@ -79,7 +79,7 @@ header {
   /*botones "leer mas" de sub cartas*/ }
   .carta:hover {
     transform: scale(1.05);
-    box-shadow: 13px 15px 37px black; }
+    box-shadow: 13px 15px 37px; }
   .carta h2 {
     padding: 10px;
     margin-top: 20px;
