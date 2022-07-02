@@ -43,7 +43,7 @@ header {
   width: 97%;
   margin: 0px auto; }
   .section_main .cartaPrincipal {
-    background-image: url("./img/Nosotros.jpg");
+    background-image: url("./img/sarasa.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,18 +55,19 @@ header {
       justify-items: center;
       align-items: center;
       font-size: 5em;
-      color: #B91646;
+      color: whitesmoke;
       -webkit-text-stroke: 1px #343a40;
-      background: rgba(0, 0, 0, 0.1); }
+      background: rgba(0, 0, 0, 0.5); }
     .section_main .cartaPrincipal p {
       display: flex;
       flex-direction: column;
       justify-items: center;
       align-items: center;
-      font-size: 1.8em;
+      font-size: 2em;
       margin-top: 60px;
-      color: black;
-      -webkit-text-stroke: 1px #343a40; }
+      color: whitesmoke;
+      -webkit-text-stroke: 1px #343a40;
+      background: rgba(0, 0, 0, 0.5); }
     .section_main .cartaPrincipal .aP {
       position: relative; }
 
@@ -87,15 +88,16 @@ header {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #B91646;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 0.5px #343a40;
     border-radius: 10px; }
   .carta p {
     position: relative;
     margin-top: 60px;
-    font-size: 2em;
+    font-size: 1.8em;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    -webkit-text-stroke: 0.2px white; }
+    -webkit-text-stroke: 0.5px #343a40; }
   .carta .aS {
     display: inline-block;
     position: relative;

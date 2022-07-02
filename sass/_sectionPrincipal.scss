@@ -6,7 +6,7 @@
     margin: 0px auto;
 
     .cartaPrincipal{
-        background-image: url("./img/Nosotros.jpg");
+        background-image: url("./img/sarasa.jpg");
         @include background(no-repeat, center, cover);
         height: 670px;
         border-radius: 15px;
@@ -17,19 +17,20 @@
             justify-items: center;
             align-items: center;
             font-size: 5em;
-            color:$colorP;
+            color:$cws;
             -webkit-text-stroke: 1px $colorS;
-            background: rgba(0,0,0,.1);
+            background: rgba(0,0,0,.5);
         }
         p{
             display: flex;
             flex-direction: column;
             justify-items: center;
             align-items: center;
-            font-size: 1.8em;
+            font-size: 2em;
             margin-top: 60px;  
-            color:black; 
+            color:$cws; 
             -webkit-text-stroke: 1px $colorS;
+            background: rgba(0,0,0,.5);
 
         }
         .aP{

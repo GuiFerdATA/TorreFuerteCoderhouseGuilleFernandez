@@ -17,16 +17,17 @@
         display: flex;
         flex-direction: column;
         color: $cw; 
-        background-color: $colorP ;
+        background: rgba(0,0,0,.5);
+        -webkit-text-stroke: 0.5px $colorS;
         border-radius: 10px;
     }
     p{
         position: relative;
         margin-top: 60px;
-        font-size: 2em;
+        font-size: 1.8em;
         background: rgba(0,0,0,.5);
         color: $cw;
-        -webkit-text-stroke: 0.2px $cw;
+        -webkit-text-stroke: 0.5px $colorS;
     }
     /*botones "leer mas" de sub cartas*/
     .aS{
