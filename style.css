@@ -529,7 +529,7 @@ header {
   .section_main {
     display: grid; }
     .section_main .cartaPrincipal {
-      background-image: url("./img/Nosotros.jpg");
+      background-image: url("./img/sarasa.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

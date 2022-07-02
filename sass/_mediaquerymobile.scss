@@ -5,7 +5,7 @@
         display: grid;
 
         .cartaPrincipal{
-            background-image: url("./img/Nosotros.jpg");
+            background-image: url("./img/sarasa.jpg");
             @include background(no-repeat, center, cover);
             border-radius: 15px;
             grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
