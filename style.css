@@ -29,13 +29,15 @@ header {
   header .navbar {
     margin-bottom: 20px; }
     header .navbar ul li a {
-      font-size: 2rem;
-      color: white; }
+      font-size: 2em;
+      color: white;
+      -webkit-text-stroke: 1px #343a40;
+      background: rgba(0, 0, 0, 0.1); }
     header .navbar .navbar-brand {
       font-size: 2rem;
       color: white; }
     header .navbar .dropdown-menu {
-      background: #66538a; }
+      background: #31185e; }
 
 .section_main {
   justify-items: center;
